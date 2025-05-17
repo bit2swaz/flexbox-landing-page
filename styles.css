@@ -134,3 +134,49 @@ button {
     text-align: right;
     color: #1f2937;
 }
+
+.cta-section {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.cta-text h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-text p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #2e6ac9;
+}
