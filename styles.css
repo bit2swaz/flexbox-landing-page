@@ -109,3 +109,28 @@ button {
     text-align: center;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 80px 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 800px;
+    text-align: left;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: #1f2937;
+}
