@@ -1,0 +1,18 @@
+body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background: #1F2937;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
