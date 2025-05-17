@@ -51,12 +51,16 @@ button {
     background-color: #3882f6;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 8px;
     font-weight: 700;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
+button:hover {
+    background-color: #2e6ac9;
+}
 .hero-img {
     background-color: #6b7280;
     color: white;
@@ -124,8 +128,25 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1f2937;
     margin-bottom: 20px;
+}
+
+.quote-text::before {
+    content: open-quote;
+    font-size: 3rem;
+    vertical-align: top;
+    line-height: 0;
+    margin-right: 5px;
+}
+
+.quote-text::after {
+    content: close-quote;
+    font-size: 3rem;
+    vertical-align: bottom;
+    line-height: 0;
+    margin-right: 5px;
 }
 
 .quote-author {
@@ -174,7 +195,7 @@ button {
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .cta-button:hover {
@@ -187,4 +208,8 @@ button {
     text-align: center;
     padding: 30px 0;
     font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
