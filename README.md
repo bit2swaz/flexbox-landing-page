@@ -1,5 +1,4 @@
-# flexbox-landing-page
-## Flexbox Project — Landing Page Clone
+# Flexbox Project — Landing Page Clone
 
 ## Overview
 This project is part of The Odin Project curriculum. It focuses on building a responsive landing page using HTML and CSS, with an emphasis on Flexbox for layout and alignment.
