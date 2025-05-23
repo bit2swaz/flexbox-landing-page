@@ -1,3 +1,67 @@
+:root {
+    /* Dark Theme Colors (default) */
+    --header-bg: #1f2937;
+    --header-logo-color: #f9faf8;
+    --header-link-color: #e5e7eb;
+    --hero-text-color: #f9faf8;
+    --hero-subtext-color: #e5e7eb;
+    --button-bg: #3882f6;
+    --button-hover-bg: #2e6ac9;
+    --image-placeholder-bg: #6b7280;
+    --info-section-bg: #f9fafb;
+    --info-heading-color: #1f2937;
+    --info-card-text-color: #6b7280;
+    --info-card-border-color: #3882f6;
+    --quote-section-bg: #e5e7eb;
+    --quote-text-color: #1f2937;
+    --quote-author-color: #1f2937;
+    --cta-section-bg: white;
+    --cta-container-bg: #3882f6;
+    --cta-text-color: white;
+    --cta-subtext-color: #e5e5e5;
+    --cta-button-border-color: white;
+    --footer-bg: #1f2937;
+    --footer-text-color: #e5e7eb;
+    --dropdown-bg: white;
+    --dropdown-text-color: #333;
+    --dropdown-shadow: rgba(0,0,0,0.1);
+    --dropdown-hover-bg: #f0f0f0;
+    --dropdown-hover-text: #3882f6;
+    --global-shadow-color: rgba(0,0,0,0.1);
+}
+
+body.light-mode {
+    /* Light Theme Overrides */
+    --header-bg: #3882f6;
+    --header-logo-color: white;
+    --header-link-color: #e5e7eb;
+    --hero-text-color: white;
+    --hero-subtext-color: #e5e7eb;
+    --button-bg: #1f2937;
+    --button-hover-bg: #333;
+    --image-placeholder-bg: #ccc;
+    --info-section-bg: white;
+    --info-heading-color: #1f2937;
+    --info-card-text-color: #6b7280;
+    --info-card-border-color: #3882f6;
+    --quote-section-bg: #f0f0f0;
+    --quote-text-color: #333;
+    --quote-author-color: #333;
+    --cta-section-bg: #f9fafb; 
+    --cta-container-bg: #1f2937;
+    --cta-text-color: white;
+    --cta-subtext-color: #e5e5e5;
+    --cta-button-border-color: white;
+    --footer-bg: #3882f6;
+    --footer-text-color: white;
+    --dropdown-bg: #f9fafb; 
+    --dropdown-text-color: #1f2937;
+    --dropdown-shadow: rgba(0,0,0,0.2);
+    --dropdown-hover-bg: #e0e0e0;
+    --dropdown-hover-text: #1f2937;
+    --global-shadow-color: rgba(0,0,0,0.2);
+}
+
 html {
     box-sizing: border-box;
 }
