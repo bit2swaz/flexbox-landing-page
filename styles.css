@@ -146,7 +146,7 @@ body {
 button,
 .button {
     background-color: var(--button-bg);
-    color: white;
+    color: var(--button-text-color);
     border: none;
     padding: 10px 30px;
     border-radius: 8px;
