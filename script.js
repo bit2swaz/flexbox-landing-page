@@ -90,21 +90,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const scrollAnimatedElements = document.querySelectorAll('.scroll-animate');
+    const backToTopBtn = document.getElementById('back-to-top-btn');
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('reveal');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, {
-        rootMargin: '0px',
-        threshold: 0.1
+    window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
     });
 
-    scrollAnimatedElements.forEach(element => {
-        observer.observe(element);
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
 });
