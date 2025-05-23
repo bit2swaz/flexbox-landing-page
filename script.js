@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         body.classList.add(currentTheme);
         updateThemeToggleButton(currentTheme);
     } else {
-        body.classList.add('dark-mode');
+        body.classList.add('dark-mode'); 
         localStorage.setItem('theme', 'dark-mode');
         updateThemeToggleButton('dark-mode');
     }
@@ -89,4 +89,31 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    const heroImage = document.querySelector('.hero-img .dynamic-image');
+    const infoImages = document.querySelectorAll('.info-img .dynamic-image');
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function loadHeroImage() {
+        const width = 500;
+        const height = 250;
+        const randomId = getRandomInt(1, 1000);
+        heroImage.src = `https://picsum.photos/id/${randomId}/${width}/${height}`;
+        heroImage.alt = `Random image #${randomId}`;
+    }
+
+    function loadInfoImages() {
+        const width = 100;
+        const height = 100;
+        infoImages.forEach((img, index) => {
+            const randomId = getRandomInt(1001 + index, 2000 + index);
+            img.src = `https://picsum.photos/id/${randomId}/${width}/${height}`;
+            img.alt = `Random info image #${randomId}`;
+        });
+    }
+    loadHeroImage();
+    loadInfoImages();
 });
