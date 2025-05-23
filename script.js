@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     const themeToggleBtn = document.getElementById('theme-toggle');
     const body = document.body;
     const currentTheme = localStorage.getItem('theme');
@@ -14,10 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateThemeToggleButton(theme) {
+        const iconSpan = themeToggleBtn.querySelector('.icon');
         if (theme === 'light-mode') {
-            themeToggleBtn.innerHTML = '<span class="icon">🌙</span>';
+            iconSpan.textContent = '🌙';
         } else {
-            themeToggleBtn.innerHTML = '<span class="icon">☀️</span>';
+            iconSpan.textContent = '☀️';
         }
     }
 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdowns = document.querySelectorAll('.dropdown');
 
     dropdowns.forEach(dropdown => {
-        const dropdownLink = dropdown.querySelector('a'); 
+        const dropdownLink = dropdown.querySelector('a');
         const dropdownMenu = dropdown.querySelector('.dropdown-menu');
 
         dropdownLink.addEventListener('click', (e) => {
