@@ -6,34 +6,34 @@ html {
 }
 
 :root {
-    --header-bg: #1f2937;
-    --header-logo-color: #f9faf8;
-    --header-link-color: #e5e7eb;
-    --hero-text-color: #f9faf8;
-    --hero-subtext-color: #e5e7eb;
-    --button-bg: #3882f6;
-    --button-hover-bg: #2e6ac9;
-    --image-placeholder-bg: #6b7280;
-    --info-section-bg: #f9fafb;
-    --info-heading-color: #1f2937;
-    --info-card-text-color: #6b7280;
-    --info-card-border-color: #3882f6;
-    --quote-section-bg: #e5e7eb;
-    --quote-text-color: #1f2937;
-    --quote-author-color: #1f2937;
-    --cta-section-bg: white;
-    --cta-container-bg: #3882f6;
-    --cta-text-color: white;
-    --cta-subtext-color: #e5e5e5;
-    --cta-button-border-color: white;
-    --footer-bg: #1f2937;
-    --footer-text-color: #e5e7eb;
-    --dropdown-bg: white;
-    --dropdown-text-color: #333;
-    --dropdown-shadow: rgba(0,0,0,0.1);
-    --dropdown-hover-bg: #f0f0f0;
-    --dropdown-hover-text: #3882f6;
-    --global-shadow-color: rgba(0,0,0,0.1);
+    --header-bg: #1A1A1A; 
+    --header-logo-color: #F9FAFB; 
+    --header-link-color: #E5E7EB; 
+    --hero-text-color: #F9FAFB; 
+    --hero-subtext-color: #E5E7EB; 
+    --button-bg: #E3B300; 
+    --button-hover-bg: #CC9900;
+    --image-placeholder-bg: #333333; 
+    --info-section-bg: #222222; 
+    --info-heading-color: #F9FAFB;
+    --info-card-text-color: #BBBBBB; 
+    --info-card-border-color: #E3B300;
+    --quote-section-bg: #282828;
+    --quote-text-color: #F9FAFB;
+    --quote-author-color: #E3B300;
+    --cta-section-bg: #1A1A1A;
+    --cta-container-bg: #333333;
+    --cta-text-color: #F9FAFB;
+    --cta-subtext-color: #E5E7EB; 
+    --cta-button-border-color: #E3B300; 
+    --footer-bg: #1A1A1A; 
+    --footer-text-color: #E5E7EB; 
+    --dropdown-bg: #333333; 
+    --dropdown-text-color: #F9FAFB; 
+    --dropdown-shadow: rgba(0,0,0,0.5); 
+    --dropdown-hover-bg: #444444; 
+    --dropdown-hover-text: #E3B300; 
+    --global-shadow-color: rgba(0,0,0,0.5);
 }
 
 body.light-mode {
@@ -43,28 +43,28 @@ body.light-mode {
     --hero-text-color: white;
     --hero-subtext-color: #e5e7eb;
     --button-bg: #1f2937;
-    --button-hover-bg: #333;
-    --image-placeholder-bg: #ccc;
+    --button-hover-bg: #333333;
+    --image-placeholder-bg: #cccccc;
     --info-section-bg: white;
     --info-heading-color: #1f2937;
     --info-card-text-color: #6b7280;
     --info-card-border-color: #3882f6;
-    --quote-section-bg: #f0f0f0;
-    --quote-text-color: #333;
-    --quote-author-color: #333;
-    --cta-section-bg: #f9fafb;
-    --cta-container-bg: #1f2937;
+    --quote-section-bg: #f5f5f5; 
+    --quote-text-color: #333333;
+    --quote-author-color: #1f2937;
+    --cta-section-bg: #f0f0f0; 
+    --cta-container-bg: #1f2937; 
     --cta-text-color: white;
     --cta-subtext-color: #e5e5e5;
     --cta-button-border-color: white;
-    --footer-bg: #3882f6;
+    --footer-bg: #3882f6; 
     --footer-text-color: white;
-    --dropdown-bg: #f9fafb;
+    --dropdown-bg: #f9fafb; 
     --dropdown-text-color: #1f2937;
-    --dropdown-shadow: rgba(0,0,0,0.2);
+    --dropdown-shadow: rgba(0,0,0,0.15);
     --dropdown-hover-bg: #e0e0e0;
     --dropdown-hover-text: #1f2937;
-    --global-shadow-color: rgba(0,0,0,0.2);
+    --global-shadow-color: rgba(0,0,0,0.15);
 }
 
 body {
